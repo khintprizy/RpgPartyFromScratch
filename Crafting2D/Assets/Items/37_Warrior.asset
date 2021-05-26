@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a3db3f156b9254db6ade2f73497e28, type: 3}
+  m_Name: 37_Warrior
+  m_EditorClassIdentifier: 
+  itemName: <b>WARRIOR</b>
+  itemIcon: {fileID: 21300000, guid: 90c5b2c4c900d6449a5597839c66e634, type: 3}
+  purchaseLevel: 11
+  isStackable: 1
+  maxStackAmount: 100
+  goldCost: 0
+  isCraftable: 1
+  minLevelToCraft: 1
+  makesHowMany: 1
+  crftItms:
+  - {fileID: 11400000, guid: c1d827fbde270a44a999eb0435b5088a, type: 2}
+  - {fileID: 11400000, guid: 9eecb2b7e5f4b544da4d7ec789d7c797, type: 2}
+  - {fileID: 11400000, guid: 14cfa45677e5bff488da28f401e04291, type: 2}
+  - {fileID: 11400000, guid: f00355fb513266149be92f1d77c11e09, type: 2}
+  crftAmnt: 01000000010000000100000001000000
+  resourceNames: 1 Earth Forged Human, 1 Longsword, 1 Armor, 1 Helmet
